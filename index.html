@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=Front, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Montserrat:ital,
+        wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,
+        wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto&family=Sriracha&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="contact">
+            <h1>Fale conosco</h1>
+            <p>
+                Deixe sua mensagem abaixo, ficaremos feliz em receber seu contato!!!
+            </p>
+        </div>
+
+        <form>
+            <div class="inputField">
+                <label>Nome completo</label>
+                <input name="name" class="invalid" placeholder="Digite seu nome..." />
+                <p class="error error-hidden">Nome obrigatório.</p>
+            </div>
+            <div class="inputField">
+                <label>E-mail</label>
+                <input name="email" class="invalid" placeholder="Digite seu e-mail..." />
+                <p class="error error-hidden">E-mail inválido.</p>
+            </div>
+            <hr />
+            <button>Enviar</button>
+        </form>
+            <div class="thanks error-hidden">
+                <h2>Obrigado pelo seu contato!</h2>
+            </div>
+        <script src="script.js"></script>
+    </body> 
+</html>
